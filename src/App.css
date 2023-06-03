@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Menghilangkan bagian luar border yang melebihi lingkaran */
+}
+
+.App-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px); /* Menambahkan efek blur pada latar belakang */
+  z-index: -1;
+}
+
+.App-content {
+  display: flex; /* Menggunakan Flexbox */
+  flex-direction: column; /* Menyusun elemen dalam kolom */
+  justify-content: center; /* Mengatur penempatan vertikal menjadi di tengah */
+  align-items: center; /* Mengatur penempatan horizontal menjadi di tengah */
+  background: linear-gradient(
+    45deg,
+    rgba(76, 76, 76, 0.8),
+    rgba(76, 76, 76, 0.8)
+  ); /* Mengubah latar belakang menjadi gradasi biru langit ke putih dengan efek transparansi */
+  padding: 20px;
+  color: white;
+  border-radius: 20px; /* Menambahkan border-radius untuk membuat konten lebih menarik */
+  width: 50%; /* Mengatur lebar konten */
+  height: 300px; /* Mengatur tinggi konten */
+  box-sizing: border-box; /* Memperhitungkan padding dan border dalam perhitungan ukuran */
+}
+
+.App-content h1 {
+  margin: 0;
+}
+
+.App-content p {
+  margin-top: 10px;
+  font-size: medium;
+}
+
+.button {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; /* Menambahkan efek transisi perubahan warna selama 0.3 detik */
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #00b7ff; /* Mengubah warna latar belakang saat pointer mengarah ke tombol */
+  color: #ffffff; /* Mengubah warna teks saat pointer mengarah ke tombol */
+}
+
+.button:active {
+  background-color: #017fb1; /* Mengubah warna latar belakang saat tombol ditekan */
+  color: #ffffff; /* Mengubah warna teks saat tombol ditekan */
+}
