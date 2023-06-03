@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/peminjaman-lab/static/css/main.30bdc9f9.css",
+    "main.js": "/peminjaman-lab/static/js/main.f40769a5.js",
+    "static/media/background.jpg": "/peminjaman-lab/static/media/background.7ddc2e13b0ad8ab2027a.jpg",
+    "index.html": "/peminjaman-lab/index.html",
+    "main.30bdc9f9.css.map": "/peminjaman-lab/static/css/main.30bdc9f9.css.map",
+    "main.f40769a5.js.map": "/peminjaman-lab/static/js/main.f40769a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30bdc9f9.css",
+    "static/js/main.f40769a5.js"
+  ]
+}
