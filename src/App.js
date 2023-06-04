@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
+  const openNewTab = () => {
+    window.open("https://s.id/peminjaman-lab", "_blank");
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App-background"></div>
+      <div className="App-content">
+        <h1>Selamat Datang</h1>
+        <p>Laboratorium Fakultas Teknik</p>
+        <button className="button" onClick={openNewTab}>
+          Template Peminjaman
+        </button>
+      </div>
     </div>
   );
 }
