@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/peminjaman-lab/static/css/main.5bb1c9cb.css",
-    "main.js": "/peminjaman-lab/static/js/main.fc4961fb.js",
+    "main.js": "/peminjaman-lab/static/js/main.858bfebe.js",
     "static/media/background.jpg": "/peminjaman-lab/static/media/background.7ddc2e13b0ad8ab2027a.jpg",
     "index.html": "/peminjaman-lab/index.html",
     "main.5bb1c9cb.css.map": "/peminjaman-lab/static/css/main.5bb1c9cb.css.map",
-    "main.fc4961fb.js.map": "/peminjaman-lab/static/js/main.fc4961fb.js.map"
+    "main.858bfebe.js.map": "/peminjaman-lab/static/js/main.858bfebe.js.map"
   },
   "entrypoints": [
     "static/css/main.5bb1c9cb.css",
-    "static/js/main.fc4961fb.js"
+    "static/js/main.858bfebe.js"
   ]
 }
