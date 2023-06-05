@@ -2,6 +2,7 @@
   text-align: center;
   height: 100vh;
   display: flex;
+  flex-direction: column; /* Mengubah flex-direction menjadi column */
   align-items: center;
   justify-content: center;
   overflow: hidden; /* Menghilangkan bagian luar border yang melebihi lingkaran */
@@ -36,6 +37,7 @@
   width: 50%; /* Mengatur lebar konten */
   height: 300px; /* Mengatur tinggi konten */
   box-sizing: border-box; /* Memperhitungkan padding dan border dalam perhitungan ukuran */
+  z-index: 1;
 }
 
 .App-content h1 {
@@ -45,6 +47,31 @@
 .App-content p {
   margin-top: 10px;
   font-size: medium;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 500px;
+  margin-top: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  /* height: 200px; */
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 .button {
@@ -66,4 +93,15 @@
 .button:active {
   background-color: #017fb1; /* Mengubah warna latar belakang saat tombol ditekan */
   color: #ffffff; /* Mengubah warna teks saat tombol ditekan */
+}
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 80%;
+  }
 }
